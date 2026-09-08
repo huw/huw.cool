@@ -80,7 +80,6 @@ pager: false
 
 .two-col p {
   margin: 0;
-  font-size: 1rem;
 }
 </style>
 
