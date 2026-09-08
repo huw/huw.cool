@@ -55,14 +55,14 @@ pager: false
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.35rem 0.6rem;
-  margin: 0.75rem 0 0;
+  margin: 1.5rem 0 0;
   padding: 0;
   list-style: none;
 }
 
 .skills li {
   font-family: var(--monospace);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   color: var(--fg-muted);
 }
 
