@@ -7,13 +7,16 @@ pager: false
 <style>
 .site-header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
   padding: 2.5rem 0 2rem;
 }
 
 .site-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 1;
@@ -21,6 +24,14 @@ pager: false
   margin: 0;
   color: var(--fg);
   text-decoration: none;
+}
+
+.site-title img {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 0.375rem;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .site-nav {
@@ -48,7 +59,7 @@ pager: false
 </style>
 
 <header class="site-header">
-  <a class="site-title" href="/">huw</a>
+  <a class="site-title" href="/"><img src="./huw.png" alt="Huw Evans">Huw Evans</a>
   <nav class="site-nav">
     <a href="mailto:yo@huw.cool">mail</a>
     <a href="https://book.huw.cool">book a meeting</a>
