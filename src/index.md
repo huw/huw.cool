@@ -50,27 +50,6 @@ pager: false
   margin-bottom: 0;
 }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.35rem 0.6rem;
-  margin: 1.5rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.skills li {
-  font-family: var(--monospace);
-  font-size: 0.72rem;
-  color: var(--fg-muted);
-}
-
-.skills li + li::before {
-  content: "·";
-  margin-right: 0.6rem;
-  color: var(--fg-faint);
-}
 
 .two-col {
   display: grid;
@@ -98,15 +77,4 @@ pager: false
   <p>I work with founders and small teams who need both technical execution and commercial judgement, without splitting those across two different people.</p>
   <p>Right now I'm consulting for a mental health project in India, working across WhatsApp-based service delivery, data infrastructure, and the experiment design used to measure impact.</p>
 </div>
-<ul class="skills">
-  <li>TypeScript &amp; React</li>
-  <li>Cloudflare Workers</li>
-  <li>data engineering</li>
-  <li>machine learning</li>
-  <li>A/B experimentation</li>
-  <li>Meta Ads &amp; growth</li>
-  <li>product management</li>
-  <li>design &amp; UX</li>
-  <li>video production</li>
-</ul>
 </div>
