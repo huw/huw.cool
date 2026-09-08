@@ -55,7 +55,7 @@ kbd {
   justify-content: center;
   min-height: 100dvh;
   margin: unset;
-  padding: 2rem 0.75rem;
+  padding: 0 0.75rem 4rem;
 }
 
 #observablehq-main {
