@@ -53,6 +53,7 @@ pager: false
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.35rem 0.6rem;
   margin: 0.75rem 0 0;
   padding: 0;
@@ -94,7 +95,7 @@ pager: false
 
 <div class="intro">
 <div class="two-col">
-  <p>I work with founders and small teams who need both technical execution and commercial judgement — without splitting those across two different people.</p>
+  <p>I work with founders and small teams who need both technical execution and commercial judgement, without splitting those across two different people.</p>
   <p>Right now I'm consulting for a mental health project in India, working across WhatsApp-based service delivery, data infrastructure, and the experiment design used to measure impact.</p>
 </div>
 <ul class="skills">
