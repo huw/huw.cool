@@ -1,8 +1,8 @@
-node_modules/
-public
-.gatsby-context.js
+src/.observablehq/cache
+src/style.generated.css
+dist
+.wrangler
+node_modules
+.env
 .DS_Store
-.intermediate-representation/
-.cache/
-yarn-error.log
-static/CV.pdf
+*.local
