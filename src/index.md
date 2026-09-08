@@ -1,15 +1,60 @@
 ---
 sidebar: false
 toc: false
+pager: false
 ---
 
 <style>
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2.5rem 0 2rem;
+}
+
+.site-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.site-nav a {
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: var(--fg);
+}
+
 .intro p {
   font-size: 1.1rem;
   line-height: 1.75;
-  margin: 2.5rem 0 0;
+  margin: 0;
 }
 </style>
+
+<header class="site-header">
+  <a class="site-title" href="/">huw</a>
+  <nav class="site-nav">
+    <a href="mailto:yo@huw.cool">mail</a>
+    <a href="https://book.huw.cool">book a meeting</a>
+    <a href="tel:+61431218603">phone</a>
+  </nav>
+</header>
 
 <div class="intro">
 

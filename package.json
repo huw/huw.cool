@@ -9,7 +9,7 @@
     "css": "postcss src/style.css -o src/style.generated.css",
     "css:watch": "postcss src/style.css -o src/style.generated.css --watch",
     "deploy": "wrangler deploy",
-    "dev": "concurrently --kill-others 'pnpm css:watch' 'observable preview --no-open'",
+    "dev": "concurrently --kill-others 'pnpm css:watch' 'observable preview --no-open --host 0.0.0.0'",
     "fix:lint": "biome check --write ."
   },
   "dependencies": {

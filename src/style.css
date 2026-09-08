@@ -55,45 +55,6 @@ kbd {
 #observablehq-main {
   margin: 0 auto;
   max-width: 640px;
-  padding: 1rem 1rem 4rem;
+  padding: 0 0.75rem 4rem;
   min-height: unset;
-}
-
-#observablehq-header {
-  border-bottom: 1px solid var(--border);
-  padding: 0;
-  background: var(--bg);
-}
-
-.site-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 1.25rem 1rem;
-}
-
-.site-title {
-  font-size: 1.75rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1;
-  color: var(--fg);
-  text-decoration: none;
-}
-
-.site-nav {
-  display: flex;
-  gap: 1.25rem;
-  font-size: 0.875rem;
-}
-
-.site-nav a {
-  color: var(--fg-muted);
-  text-decoration: none;
-}
-
-.site-nav a:hover {
-  color: var(--fg);
 }
