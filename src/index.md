@@ -94,20 +94,18 @@ pager: false
 
 <div class="intro">
 <div class="two-col">
-  <div>
-    <p>I work with founders and small teams who need both technical execution and commercial judgement — without splitting those across two different people.</p>
-    <ul class="skills">
-      <li>TypeScript &amp; React</li>
-      <li>Cloudflare Workers</li>
-      <li>data engineering</li>
-      <li>machine learning</li>
-      <li>A/B experimentation</li>
-      <li>Meta Ads &amp; growth</li>
-      <li>product management</li>
-      <li>design &amp; UX</li>
-      <li>video production</li>
-    </ul>
-  </div>
+  <p>I work with founders and small teams who need both technical execution and commercial judgement — without splitting those across two different people.</p>
   <p>Right now I'm consulting for a mental health project in India, working across WhatsApp-based service delivery, data infrastructure, and the experiment design used to measure impact.</p>
 </div>
+<ul class="skills">
+  <li>TypeScript &amp; React</li>
+  <li>Cloudflare Workers</li>
+  <li>data engineering</li>
+  <li>machine learning</li>
+  <li>A/B experimentation</li>
+  <li>Meta Ads &amp; growth</li>
+  <li>product management</li>
+  <li>design &amp; UX</li>
+  <li>video production</li>
+</ul>
 </div>
