@@ -52,7 +52,7 @@ pager: false
   <nav class="site-nav">
     <a href="mailto:yo@huw.cool">mail</a>
     <a href="https://book.huw.cool">book a meeting</a>
-    <a href="tel:+61431218603">phone</a>
+    <a href="https://wa.me/61431218603">phone</a>
   </nav>
 </header>
 
