@@ -10,7 +10,7 @@ pager: false
   align-items: baseline;
   justify-content: space-between;
   gap: 1.5rem;
-  padding: 2.5rem 0 2rem;
+  margin-bottom: 2rem;
 }
 
 .site-title {
