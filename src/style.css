@@ -6,23 +6,30 @@
   --sans-serif: "IBM Plex Sans", system-ui, sans-serif;
   --monospace: "IBM Plex Mono", monospace;
 
-  --fg:          light-dark(oklch(18% 0 0),   oklch(88% 0 0));
-  --fg-muted:    light-dark(oklch(42% 0 0),   oklch(62% 0 0));
-  --fg-faint:    light-dark(oklch(58% 0 0),   oklch(48% 0 0));
-  --fg-faintest: light-dark(oklch(88% 0 0),   oklch(28% 0 0));
-  --bg:          light-dark(oklch(100% 0 0),  oklch(12% 0 0));
-  --bg-alt:      light-dark(oklch(97% 0 0),   oklch(16% 0 0));
-  --border:      light-dark(oklch(90% 0 0),   oklch(24% 0 0));
+  --fg: light-dark(oklch(18% 0 0), oklch(88% 0 0));
+  --fg-muted: light-dark(oklch(42% 0 0), oklch(62% 0 0));
+  --fg-faint: light-dark(oklch(58% 0 0), oklch(48% 0 0));
+  --fg-faintest: light-dark(oklch(88% 0 0), oklch(28% 0 0));
+  --bg: light-dark(oklch(100% 0 0), oklch(12% 0 0));
+  --bg-alt: light-dark(oklch(97% 0 0), oklch(16% 0 0));
+  --border: light-dark(oklch(90% 0 0), oklch(24% 0 0));
 
   font-size: 16px;
 }
 
-:root[data-theme="light"] { color-scheme: light; }
-:root[data-theme="dark"]  { color-scheme: dark; }
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html, body {
+html,
+body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--sans-serif);
@@ -30,7 +37,9 @@ html, body {
   line-height: 1.625;
 }
 
-code, pre, kbd {
+code,
+pre,
+kbd {
   font-family: var(--monospace);
 }
 

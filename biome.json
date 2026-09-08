@@ -1,12 +1,21 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.5.7/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.5.12/schema.json",
   "files": {
-    "ignore": ["src/.observablehq", "dist", "node_modules", "src/style.generated.css", "pnpm-lock.yaml"]
+    "includes": [
+      "**",
+      "!**/.claude",
+      "!**/.mcp.json",
+      "!**/src/.observablehq",
+      "!**/dist",
+      "!**/node_modules",
+      "!**/src/style.generated.css",
+      "!**/pnpm-lock.yaml"
+    ]
   },
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "style": {
         "noProcessEnv": "off"
       }

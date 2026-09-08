@@ -4,7 +4,12 @@ export default {
   style: "style.generated.css",
 
   interpreters: {
-    ".ts": ["node", "--experimental-strip-types", "--harmony-temporal", "--env-file-if-exists=.env"],
+    ".ts": [
+      "node",
+      "--experimental-strip-types",
+      "--harmony-temporal",
+      "--env-file-if-exists=.env",
+    ],
   },
 
   head: `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>`,
